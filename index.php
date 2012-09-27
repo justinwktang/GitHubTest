@@ -35,7 +35,7 @@ while($row = mysql_fetch_assoc($result))
 ?>
 
 <br /><br />
-<form name="new_story" action="/write/index.php" method="post">
+<form name="new_story" action="/write_beta/index.php" method="post">
 	My name is:<br />
     <select name="user">
     	<option value="1">Khai</option>
